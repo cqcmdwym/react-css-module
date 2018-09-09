@@ -7,7 +7,7 @@ export default class Main extends React.Component {
             <html>
                 <Head title='React and CSS Modules' />
                 <body>
-                    {/* This is where our content for various pages will go */}
+                    {this.props.children}
                 </body>
             </html>
         )
